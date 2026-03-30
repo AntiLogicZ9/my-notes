@@ -6,10 +6,10 @@ baseurl: "/my-notes"
 url: "https://antilogicz9.github.io"
 github_username: antilogicz9
 
-remote_theme: jekyll/minima
+theme: minima
 plugins:
   - jekyll-feed
-  - jekyll-remote-theme
+  
 
 #header_pages:
 #  - about.markdown
