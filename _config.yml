@@ -18,19 +18,12 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: My notes
-email: your-email@example.com
-description:  # this means to ignore newlines until "baseurl:"
-
-  
-  
-  
-
-
-
+title: "My notes"
+email: zayan9111@gmail.com
+description: "CSE study notes"
 baseurl: "/my-notes"
 url: "https://antilogicz9.github.io"
-twitter_username: jekyllrb
+
 github_username: antilogicz9
 
 
@@ -38,6 +31,13 @@ github_username: antilogicz9
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
+
+# Markdown rendering
+markdown: kramdown
+kramdown:
+  syntax_highlighter: rouge
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -51,8 +51,8 @@ plugins:
 #   - .sass-cache/
 #   - .jekyll-cache/
 #   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
+   - Gemfile
+   - Gemfile.lock
 #   - node_modules/
 #   - vendor/bundle/
 #   - vendor/cache/
